@@ -65,7 +65,7 @@ Welcome to Quiz Master, your go-to destination for brain-teasing quizzes! 🎉 T
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quiz-master.git
+   git clone https://github.com/beniamincantorlabiserica/quiz-master.git
    ```
 
 2. Navigate to the project directory:
