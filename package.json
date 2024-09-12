@@ -36,8 +36,5 @@
 	"type": "module",
 	"dependencies": {
 		"@supabase/supabase-js": "^2.45.4"
-	},
-	"engines": {
-		"node": "18.17.1"
 	}
 }
