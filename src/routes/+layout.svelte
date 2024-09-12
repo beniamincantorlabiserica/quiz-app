@@ -1,53 +1,23 @@
 <script>
-	import Header from './Header.svelte';
-	import '../app.css';
+	import "../app.css";
 </script>
 
-<div class="app">
-	<Header />
+<div class="app flex flex-col min-h-screen bg-base-100" data-theme="wireframe">
+	<header class="navbar bg-base-200">
+		<div class="flex-1">
+			<a href="/" class="btn btn-ghost normal-case text-xl">QuizApp</a>
+		</div>
+	</header>
 
-	<main>
-		<slot />
+	<main class="flex-grow overflow-auto">
+		<div class="container mx-auto p-4">
+			<slot />
+		</div>
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<footer class="footer footer-center p-4 bg-base-200 text-base-content">
+		<div>
+			<p>Copyright © 2024 - All rights reserved by QuizApp</p>
+		</div>
 	</footer>
 </div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
