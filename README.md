@@ -16,6 +16,7 @@
 
 Welcome to Quiz Master, your go-to destination for brain-teasing quizzes! 🎉 This interactive application offers a smorgasbord of quizzes on various topics, allowing you to challenge yourself and track your intellectual prowess over time.
 
+Demo: https://quiz-app-36i.pages.dev
 ---
 
 ## 🛠️ Tech Stack
